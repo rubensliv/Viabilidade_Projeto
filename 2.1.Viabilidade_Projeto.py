@@ -170,7 +170,9 @@ def train_or_predict(new_projects):
 new_projects = [
     # {"investment": 13000, "expected_return": 69000, "impact_score": 7}  # Exemplo comentado
     {"investment": 40000, "expected_return": 60000, "impact_score": 6},  # Projeto a ser avaliado
+    {"investment": 10000, "expected_return": 90000, "impact_score": 6},
     {"investment": 10000, "expected_return": 90000, "impact_score": 6}
+    
 ]
 
 # Executa a função de treino/previsão com os novos projetos
